@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# 开发环境运行目录
+run/
+runs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# 本机配置（部署路径等，不应进仓库）
+local.properties
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini

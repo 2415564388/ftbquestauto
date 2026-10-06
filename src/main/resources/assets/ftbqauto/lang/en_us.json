@@ -1,0 +1,31 @@
+{
+  "itemGroup.ftbqauto": "FTB Quest Automation",
+
+  "block.ftbqauto.quest_submitter": "Quest Submitter",
+  "block.ftbqauto.reward_claimer": "Reward Claimer",
+  "item.ftbqauto.quest_binder": "FTB Quest Binder",
+
+  "gui.ftbqauto.unbound": " (no quest bound)",
+  "gui.ftbqauto.dangling": " (bound quest is missing)",
+  "gui.ftbqauto.bound": "Bound quest: %s",
+  "gui.ftbqauto.binder_set": "Binder set to: %s",
+  "gui.ftbqauto.binder_cleared": "Binder cleared",
+  "gui.ftbqauto.needs_quest": "This block needs a quest bound, not an individual task",
+
+  "tooltip.ftbqauto.quest_submitter.1": "On a redstone rising edge, submits its contents to the bound quest",
+  "tooltip.ftbqauto.quest_submitter.2": "Covers every item task in that quest; only what is submitted is consumed",
+  "tooltip.ftbqauto.quest_submitter.3": "Right-click with the FTB Quest Binder to bind · empty hand to open",
+
+  "tooltip.ftbqauto.reward_claimer.1": "Claims rewards automatically once the bound quest is completed",
+  "tooltip.ftbqauto.reward_claimer.2": "Items go into this block; XP, commands etc. go to the bound player",
+  "tooltip.ftbqauto.reward_claimer.3": "Right-click with the FTB Quest Binder to bind · empty hand to open",
+
+  "tooltip.ftbqauto.binder.empty": "No quest bound",
+  "tooltip.ftbqauto.binder.bound": "Bound to: %s",
+  "tooltip.ftbqauto.binder.hint": "Right-click air: search　Right-click block: bind　Sneak-right-click: clear",
+  "tooltip.ftbqauto.binder.owner_hint": "The binder is anonymous — the block belongs to whoever binds it",
+
+  "jade.ftbqauto.bound": "Bound quest: %s",
+  "jade.ftbqauto.owner": "Bound player: %s",
+  "jade.ftbqauto.unbound": "No quest bound"
+}

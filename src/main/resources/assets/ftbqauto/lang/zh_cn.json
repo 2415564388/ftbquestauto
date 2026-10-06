@@ -1,0 +1,31 @@
+{
+  "itemGroup.ftbqauto": "FTB 任务自动化",
+
+  "block.ftbqauto.quest_submitter": "任务提交器",
+  "block.ftbqauto.reward_claimer": "奖励领取器",
+  "item.ftbqauto.quest_binder": "FTB 任务绑定器",
+
+  "gui.ftbqauto.unbound": "（未绑定任务）",
+  "gui.ftbqauto.dangling": "（绑定的任务已不存在）",
+  "gui.ftbqauto.bound": "已绑定任务：%s",
+  "gui.ftbqauto.binder_set": "绑定器已设定：%s",
+  "gui.ftbqauto.binder_cleared": "绑定器已清空",
+  "gui.ftbqauto.needs_quest": "这个方块需要绑定一个「任务」，不能是单个子任务",
+
+  "tooltip.ftbqauto.quest_submitter.1": "红石信号（上升沿）时，把箱内物品提交给绑定的任务",
+  "tooltip.ftbqauto.quest_submitter.2": "覆盖该任务下的所有物品子任务，提交多少扣多少",
+  "tooltip.ftbqauto.quest_submitter.3": "用 FTB 任务绑定器右键绑定任务 · 空手右键打开容器",
+
+  "tooltip.ftbqauto.reward_claimer.1": "绑定的任务完成后，自动把奖励领进这个箱子",
+  "tooltip.ftbqauto.reward_claimer.2": "物品进箱子，经验/命令等发给绑定的玩家",
+  "tooltip.ftbqauto.reward_claimer.3": "用 FTB 任务绑定器右键绑定任务 · 空手右键打开容器",
+
+  "tooltip.ftbqauto.binder.empty": "未绑定任何任务",
+  "tooltip.ftbqauto.binder.bound": "已绑定：%s",
+  "tooltip.ftbqauto.binder.hint": "右键空气：搜索任务　右键方块：绑定　潜行右键：清空",
+  "tooltip.ftbqauto.binder.owner_hint": "绑定器不记名 —— 方块归属于右键绑定的那个玩家",
+
+  "jade.ftbqauto.bound": "绑定任务：%s",
+  "jade.ftbqauto.owner": "绑定玩家：%s",
+  "jade.ftbqauto.unbound": "未绑定任务"
+}

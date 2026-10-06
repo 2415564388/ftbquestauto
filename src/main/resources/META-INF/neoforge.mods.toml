@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "FTB Quest Automation"
+description = '''
+让 FTB Quests 的物品提交任务和奖励领取可以自动化。
+- 任务提交器：绑定任务 ID 后，红石上升沿把箱内物品提交给该任务
+- 奖励领取器：绑定任务 ID 后，任务完成时自动领取奖励到自己的库存
+- FTB 任务绑定器：右键方块绑定任务，右键空气打开任务搜索界面
+'''
+authors = "ftbqauto"
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.228,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "ftbquests"
+type = "required"
+versionRange = "[2101.1.0,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "ftbteams"
+type = "required"
+versionRange = "[2101.1.0,)"
+ordering = "AFTER"
+side = "BOTH"

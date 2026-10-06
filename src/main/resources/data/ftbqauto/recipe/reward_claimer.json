@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "IDI",
+    "RCR",
+    "IRI"
+  ],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "D": { "item": "minecraft:diamond" },
+    "R": { "item": "minecraft:redstone" },
+    "C": { "item": "minecraft:chest" }
+  },
+  "result": {
+    "id": "ftbqauto:reward_claimer",
+    "count": 1
+  }
+}

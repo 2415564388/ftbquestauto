@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "ftbqauto:block/reward_claimer_top",
+    "front": "ftbqauto:block/reward_claimer_front",
+    "side": "ftbqauto:block/reward_claimer_side"
+  }
+}

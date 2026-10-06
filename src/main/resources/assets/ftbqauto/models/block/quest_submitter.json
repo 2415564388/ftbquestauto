@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "ftbqauto:block/quest_submitter_top",
+    "front": "ftbqauto:block/quest_submitter_front",
+    "side": "ftbqauto:block/quest_submitter_side"
+  }
+}
